@@ -1,0 +1,62 @@
+@keyframes one {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes two {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+body {
+  background-color: #6bbcbe;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+#aniA {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  animation: one 1s ease-in-out infinite;
+}
+#aniB {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.ani1 {
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+}
+.ani2 {
+  background-color: white;
+  height: 30px;
+  width: 10px;
+  animation: two 1s ease-in-out infinite;
+}
+.second {
+  animation-delay: 0.1s;
+}
+.third {
+  animation-delay: 0.2s;
+}
+.fourth {
+  animation-delay: 0.3s;
+}
+.fifth {
+  animation-delay: 0.4s;
+}
