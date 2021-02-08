@@ -1,0 +1,65 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+}
+
+.box__inside {
+    display: flex;
+    flex-direction: column;
+}
+
+.box__inside--colorbox {
+    width: 200px;
+    height: 300px;
+    flex-direction: column;
+    margin: 15px;
+    border: white solid 8px;
+}
+
+.box__inside--title {
+    display: block;
+    padding-top: 23px;
+}
+
+.title__color--name,
+.title__color--code {
+    display: flex;
+    padding: 10px 13px;
+    background-color: white;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.burlywood {
+    background-color: burlywood;
+}
+
+.thistle {
+    background-color: thistle;
+}
+
+div > span {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
