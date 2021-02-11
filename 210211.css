@@ -1,3 +1,185 @@
-body{
-    background-color: teal;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+/* 폰트 600 , 700 소환 */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 50px 30px;
+    background-color: #face53;
+}
+
+.header__box--title {
+    font-size: 26px;
+}
+
+.header__search--box {
+    background-color: white;
+    position: relative;
+    bottom: 33px;
+    left: 8%;
+    display: flex;
+    width: 80%;
+    border-radius: 30px;
+    padding: 24px 15px;
+    justify-content: space-between;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, .3);
+}
+
+.header__search--input {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.header__search--icon {
+    opacity: 0.3;
+}
+
+.box__top--contents {
+    display: flex;
+}
+
+.box__top--contents {
+    padding: 20px 0 20px 30px;
+}
+
+.contents--book-image {
+    height: 200px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.top__contents--intro {
+    padding-left: 30px;
+}
+
+.intro--title {
+    font-size: 24px;
+}
+
+.intro--author {
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+.intro--stars {
+    display: flex;
+    padding: 6px 0;
+    width: 120px;
+    justify-content: space-between;
+    color: #face53;
+}
+
+.intro--tags {
+    padding: 10px 5px;
+    display: flex;
+}
+
+.intro--tags--tag {
+    padding: 6px 16px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.space1 {
+    width: 15px;
+}
+
+
+.intro--buttons {
+    display: flex;
+    padding-top: 10px;
+}
+
+.intro--buttons--bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #face53;
+}
+
+.space2 {
+    width: 35px;
+}
+
+
+.intro--buttons--booknow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.box__center {
+    padding: 10px 30px;
+}
+
+.box__title {
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.box__center--intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.center--book--image {
+    height: 130px;
+    width: 90px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.center--book--stars {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: #face53;
+    opacity: 0.8;
+    padding: 10px 5px;
+}
+
+.box__bottom{
+    padding: 20px 30px;
+    display: flex;
+}
+
+.box__bottom--image{
+    height: 180px;
+    width: 150px;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+.box__bottom--right{
+    padding-left: 18px;
+}
+
+.bottom--right--title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.bottom--right--paragraph{
+    padding: 15px 5px;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 0.3;
 }
