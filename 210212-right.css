@@ -1,4 +1,4 @@
-.player--top{
+.player--top {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     align-content: center;
 }
 
-.player--image{
+.player--image {
     margin-left: 50px;
     height: 300px;
     width: 300px;
@@ -23,26 +23,52 @@
     font-weight: 700;
 }
 
-.player--artist{
+.player--artist {
     font-size: 24px;
     text-align: center;
 }
 
-.player--bar{
+.player--time {
     margin-top: 40px;
-    width: 90%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-player--bar--time{
-    font-size: 15px;
-    opacity: 0.7;
+    justify-content: space-between;
+    margin-left: 35px;
+    align-items: center;
+    width: 80%;
 }
 
-.player--bar--line{
-    height: 5px;
-    width: 400px;
+.player--bar--point{
+    width: 11px;
+    height: 11px;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 50%;
+    position: relative;
+    left: 260px;
+    bottom: 47px;
+}
+.player--bar--line {
+    margin: 10px 0 40px 35px;
+    height: 3px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+.player--bottom{
+    height: 100px;
+    margin: 30px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom--icon:first-child,
+.bottom--icon:last-child{
+    opacity: 0.3;
+}
+
+.bottom--icon:nth-child(3){
+    color:white;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: black;
 }
