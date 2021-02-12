@@ -12,6 +12,7 @@
     height: 300px;
     width: 300px;
     background-color: #face53;
+    border-radius: 10px;
 }
 
 .player--title {
@@ -26,3 +27,21 @@
     text-align: center;
 }
 
+.player--bar{
+    margin-top: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+player--bar--time{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.player--bar--line{
+    height: 5px;
+    width: 400px;
+    background-color: black;
+    border-radius: 5px;
+}
