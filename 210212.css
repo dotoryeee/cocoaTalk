@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "210212-left.css";
+@import "210212-right.css";
+/* roboto font 400, 700 소환 */
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    margin: 50px;
+    height: 800px;
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.header {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header--icons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: black;
+}
